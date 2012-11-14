@@ -16,12 +16,7 @@ body {
   background: url('ship.jpg');
   background-size: cover;
 }
-p a {
-  color: #2a9ccc;
-}
-p a:hover {
-  color: #1f2225;
-}
+
 
 h2 {
   font-family: 'Poiret One', cursive;
@@ -31,11 +26,15 @@ h1 {
 	/*font-family: 'Faster One', cursive;*/
   font-family: 'Poiret One', cursive;
   font-size: 80px;
-  line-height: 2em;
-  margin-bottom: 1em;
+
   color: black;
 }
 
+hr {
+  margin: 30px 5px;
+  border-top: 10px solid red;
+  
+}
 
 .footer {
   margin: 0px 20% 0px 20%;
@@ -46,7 +45,7 @@ h1 {
 .container {
   /*width: 100%;*/
   text-align: center;
-  margin: 0px 20% 0px 20%;
+  margin: 20px 20% 0px 20%;
   /*background-color: white;*/
 }
 #logo img {
@@ -54,7 +53,7 @@ h1 {
 }
 .timer-area {
   /*background: transparent url('timer-area-pattern.png') left top;*/
-  margin: 0px 20% 0px 20%;
+  margin: 20px 20% 0px 20%;
   background-color: white;
   opacity: 0.95;
   text-align: center;
